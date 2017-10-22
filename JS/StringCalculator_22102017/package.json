@@ -1,0 +1,19 @@
+{
+  "name": "string_calculator",
+  "version": "1.0.0",
+  "description": "Kata",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d lib",
+    "test": "mocha test --require babel-register --recursive"
+  },
+  "author": "PJ",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "babel-register": "^6.26.0",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
+}
