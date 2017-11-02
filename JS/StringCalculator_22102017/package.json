@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "babel src -d lib",
-    "test": "mocha test --require babel-register --recursive"
+    "test": "mocha test --require babel-register --recursive",
+    "test_debug": "mocha test --require babel-register --recursive --debug-brk"
   },
   "author": "PJ",
   "license": "MIT",
